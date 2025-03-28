@@ -1,0 +1,140 @@
+/* DocuUML.css */
+.docuuml-container {
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: #6a1b9a;
+    font-size: 24px;
+  }
+  
+  .github-link a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .upload-section,
+  .git-section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .drop-zone {
+    border: 2px dashed #666;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .file-list {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .file-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .file-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .file-icon {
+    margin-right: 5px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-btn,
+  .analyze-btn {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .git-input {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .documentation-section {
+    grid-column: 1 / -1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .doc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .doc-buttons button {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .project-structure {
+    margin-bottom: 20px;
+  }
+  
+  .diagrams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .diagrams > div {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }

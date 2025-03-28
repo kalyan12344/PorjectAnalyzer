@@ -1,0 +1,217 @@
+/* Textbox Container */
+.textbox-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* File and Folder Buttons */
+  .file-button,
+  .folder-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: #9ca3af;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .file-button:hover .icon,
+  .folder-button:hover .icon {
+    color: #4b5563;
+  }
+  
+  /* Input Field */
+  .textbox {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  /* Hidden File Input */
+  .file-input {
+    display: none;
+  }
+  
+  /* File Count Display */
+  .file-count {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-left: 10px;
+  }
+  
+  /* Upload Button */
+  .upload-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .upload-button:disabled {
+    background-color: #a5b4fc;
+    cursor: not-allowed;
+  }
+/* Textbox Container */
+.textbox-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* File and Folder Buttons */
+  .file-button,
+  .folder-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: #9ca3af;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .file-button:hover .icon,
+  .folder-button:hover .icon {
+    color: #4b5563;
+  }
+  
+  /* Input Field */
+  .textbox {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  /* Hidden File Input */
+  .file-input {
+    display: none;
+  }
+  
+  /* File Count Display */
+  .file-count {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-left: 10px;
+  }
+  
+  /* Upload Button */
+  .upload-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .upload-button:disabled {
+    background-color: #a5b4fc;
+    cursor: not-allowed;
+  }
+/* Textbox Container */
+.textbox-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* File and Folder Buttons */
+  .file-button,
+  .folder-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: #9ca3af;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .file-button:hover .icon,
+  .folder-button:hover .icon {
+    color: #4b5563;
+  }
+  
+  /* Input Field */
+  .textbox {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  /* Hidden File Input */
+  .file-input {
+    display: none;
+  }
+  
+  /* File Count Display */
+  .file-count {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-left: 10px;
+  }
+  
+  /* Upload Button */
+  .upload-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .upload-button:disabled {
+    background-color: #a5b4fc;
+    cursor: not-allowed;
+  }
+      
